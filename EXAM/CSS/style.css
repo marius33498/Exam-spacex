@@ -1,0 +1,588 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+/*
+------------*/
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+body{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    word-spacing: 0.3em;
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 0;
+}
+/*Image header
+----------------*/
+.home-hero{
+	background-image: url("../Picture/international-space-station-1176518_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 15em 0;
+	background-attachment: local;
+	height: 100vh;
+	width: 100%;
+}
+
+.logo{
+	margin: 0 auto;
+	width: 100px;
+	max-width: 100%;
+	position: flex;
+	display: inline-block;
+	height: 100%;
+	max-height: 100px;
+	background-color: #FCFBFB;
+	float: left;
+	left: 0;
+}
+
+.title{
+	font-size: 2.5em;
+	font-weight: 900;
+	padding: 30px;
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	margin: 0 auto;
+	font-family: "raileway", sans-serif;
+	margin-bottom: 50px;
+	max-width: 700px;
+}
+.title span{
+	font-weight: 300;
+	display: block;
+	font-size: .9em;
+	padding: 20px;
+}
+/*header
+------------*/
+header{
+    padding: 0px;
+    margin: 0 auto;
+	width: 100%;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+/*navigation
+----------------*/
+nav a:hover{
+	border-bottom: 4px solid #ffffff;
+	padding: 6px 0;
+	border-top: 4px solid #ffffff;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	float: right;
+
+}
+nav li{
+	display: inline-block;
+	margin: 15px;
+}
+nav a{
+	font-weight: 800;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+.active-home{
+	background-color: #1b9bff;
+	padding: 10px;
+	border: 2px solid #1b9bff;
+	border-radius: 10px;
+}
+
+/*main
+----------*/
+.container{
+	overflow: auto;
+	min-height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#details{
+	padding: 20px; 
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	padding-top: 15px;
+}
+
+#content-wrap p{
+	letter-spacing: .3em;
+}
+
+/*
+----------------*/
+.space{
+	background-image: url("../Picture/rocket-1245696_1920 (1).jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	max-height: 70vh;
+	background-attachment: local;
+	padding: 15em 0;
+	background-position: bottom center;
+	
+}
+.aboutUs{
+	padding: .5em 1.75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	font-size: 1.5rem;
+	border-style: solid;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	font-weight: 600; 
+}
+.nextLaunch{
+	padding: .5em 1.75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	font-size: 1.5rem;
+	border-style: solid;
+	color: #fff;
+	background: rgba(0,0,0,0.3);
+	font-weight: 600; 
+}
+.nextLaunch:hover{
+	color: #00ff6c;
+}
+/*launch
+----------------*/
+
+
+#mobileNavigation {
+	display: none;
+}
+
+.project-item{
+	padding: 25px 0;
+	border-bottom: 1px dashed #343434;
+	overflow: hidden;
+}
+.project-item button{
+	background-color: #2F3061;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.project-item img{
+	float: left;
+}
+
+/*mobile icon
+---------------*/
+ .icon {
+    width: 40px;
+	float: right;
+	 margin-right: 10px;
+	 margin-top: 10px;
+  }
+/* flexbox
+-------------*/
+.one{
+	background: #ffffff;
+	width: 100%;
+	padding: 70px;
+	height: 390px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.one h3{
+	padding: 20px;
+}
+.two{
+	padding-left: 10px;
+	height: 100%;
+}
+.two img{
+	width: 100%;
+	height: 400px;
+}
+.contactButton{
+	margin-top: 50px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 1.2em;
+	border-width: 2px;
+	border-radius: 30px;
+	padding: .5em 1.75em;
+	padding: 20px;
+	border: 2px solid #1b9bff;
+	border-radius: 25px;
+	text-decoration: none;
+	font-weight: 900;
+	font-family: "raileway", sans-serif;
+	background-color: #1b9bff;
+}
+.contactButton:hover{
+	color: black;
+}
+.contactSection {
+	flex-direction: column;
+	display: flex;
+	background-color: #ffffff;
+	height: 100%;
+}
+.contactImage {
+	flex: 1;
+}
+/*video
+----------------*/	
+#video{
+	flex: 1;
+}
+#video h2{
+	padding: 20px;
+}
+.pleple{
+	padding: 20px 20px 20px 20px;
+	line-height: 24px;
+	padding-top: 10px;
+}
+#video a:visited{
+	color: black;
+}
+#video a:hover{
+	color: red;
+}
+iframe{
+	width: 100%;
+	max-height: 480px;
+	height: 100%;
+	max-width: 500px;
+    border: 2px solid black;
+}
+.containerVideo{
+	flex-direction: column;
+	display: flex;
+	background-color: #ffffff;
+	height: 100%;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.videoH2 {
+	letter-spacing: 1.5px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 20px;
+	line-height: 1.1;
+	width: 100%;
+	font-size: 1em;
+	padding-bottom: 15px;
+}
+.videoButton{
+	margin-top: 20px;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 1.5em;
+	border-width: 2px;
+	padding:  .7em;
+	border: 2px solid #1b9bff;
+	border-radius: 15px;
+	text-decoration: none;
+	font-weight: 900;
+	font-family: "raileway", sans-serif;
+	background-color: #1b9bff;
+}
+#three{
+	padding: 20px;
+}
+#four{
+	padding-left: 20px;
+	padding-bottom: 20px;
+    display: inline-block;
+}
+/*  footer
+---------------------*/
+footer{
+	position: relative;
+	clear: both;
+	background-color: #393939;
+	content: "";
+	height: 100%;
+	max-height: 300px;
+	text-decoration: none;
+}
+footer ul{
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	display: block;
+}
+footer li{
+	padding: 15px;
+	display: inline-block;
+}
+#nav{
+	width: 100%;
+	float: left;
+}
+#nav img{
+	width: 150px;
+	height: 100%;
+	max-height: 150px;
+	padding: 20px;
+}
+.containerFooter{
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+    font-weight: 600;
+}
+#navFooter{
+	float: right;
+	font-size: 1.3em;
+	font-family: "raileway", sans-serif;
+}
+.socialMediaIcon{
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+#navFooter a{
+	text-decoration: none;
+}
+#navFooter a:visited{
+	color: #dddddd;
+}
+#navFooter a:hover{
+    color: red;
+	display: block;
+}
+#navFooter a:active{
+	color: yellow;
+}
+footer i{
+	font-size: 30px;
+	margin-left: 15px;
+}
+.fa-facebook-square{
+	background-color: #dddddd;
+	color: rgb(59,91,152);
+	height: 100%;
+	max-height: 28px;
+}
+.fa-youtube{
+	color: red;
+}
+.fa-twitter-square{
+	color: rgb(29,161,242);
+	background-color: #ffffff;
+	height: 100%;
+	max-height: 22px;
+ } 
+.fab fa{
+	padding-bottom: 15px;
+}
+@media only screen and (min-width: 760px) {
+	.icon{
+		display: none;
+	}
+	#mobileNavigation{
+		display: block;
+	}
+   .contactSection {
+		flex-direction: row;
+	}
+	.containerVideo{
+		flex-direction: row;
+		height: 100%;
+	}
+	.space button{
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 480px and max-width: 768px) {
+	
+	body{
+		width: 100%;
+		margin: 0 auto;
+		height: 100%;
+	}
+	.home-hero{
+		height: 100vh;
+	}
+	.title{
+		margin-top: 100px;
+	}
+	.logo{
+	   height: 300px;
+	     
+	}
+	nav ul{
+		padding: 20px;
+	}
+/*video section
+-------------------*/	
+	iframe{
+		padding: 20px;
+		border: none;
+		width: 100%;
+	}
+	#video{
+		font-size: 1em;
+	}
+	.container{
+		width: 100%;
+	}
+	.spaceGallery{
+		width: 100%;
+	}
+	.space{
+		height: 100%;
+		
+	}
+	
+}
+@media only screen and (max-width: 480px) {
+	body{
+		width: 100%;
+		margin: 0 auto;
+		height: 100%;
+	}
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.title{
+		max-height: 150px;
+		margin-top: 70px;
+		font-size: 1.9em;
+	}
+	#span{
+		font-size: 1em;
+		padding: 10px;
+	}
+	nav{
+		overflow: hidden;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+   /*header image home
+	---------------------*/
+	.home-hero{
+		margin: 0 auto;
+	}
+	.home-hero button{
+		justify-content: center;
+		height: 40%;
+		font-size: 1.5em;
+		background: none;
+		color: #00ff6c;
+		border-color: #00ff6c;
+	}
+	/*mobile nav
+	----------------*/
+	.icon{
+		width: 50px;
+		height: 100%;
+		background-color: #ffffff;
+	    right: 0;
+	    margin-right: 20px;
+	    margin-top: 10px;  
+}
+	.logo{
+		height: 70px;
+		background-color: #ffffff;
+	}
+#mobileNavigation{
+	width: 100%;
+}
+#mobileNavigation ul{
+	float: right;
+	list-style: none;
+	height: 100%;
+	width: 100%;
+	background-color: #2c3e50;
+}
+#mobileNavigation li{
+	width: 100%;
+	padding: 5px;
+ }
+
+	/*
+	--------------------------*/
+	.space{
+		background-position: center center;
+		margin: 0 auto;
+	}
+	.space button{
+		justify-content: center;
+		height: 50%;
+		font-size: 1.5em;
+		background: none;
+		color: #00ff6c;
+		border-color: #00ff6c;
+	}
+	nav li{
+		display: block;
+	}
+	/*main
+	-------------*/
+	
+    .containerVideo{
+		padding-bottom: 15px;
+	}
+	#content-wrap{
+		width: 100%;
+		margin: 0 auto;
+	}
+    
+	iframe{
+		width: 100%;
+		
+		height: 100%;
+	}
+
+   #container{
+	margin: 0 auto;
+    text-align: center;
+  }
+	.videoButton{
+		height: 100%;
+	}	
+	/*footer nav
+	-----------------*/
+	footer{
+		height: 100%;
+	}
+	#navFooter li{
+		margin: 0 15px;
+	}
+	#nav{
+		margin-bottom: -15px;
+	}
+	#navFooter{
+		float: left;
+		display: block;
+		list-style: none;
+	}
+	.socialMediaIcon{
+		height: 100%;
+		padding: 20px;
+	}
+
+}

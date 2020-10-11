@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link href="../CSS/contact.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+<title>Contact page</title>
+</head>
+
+<body>
+     <div class="nav-contact">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" class="icon">
+		<img src="../Picture/1cd77912-d1fc-4e7e-a89d-5e98220e7f2d_rw_1200.jpg" class="logo">
+	
+	  <nav id="mobileNavigation">
+	  <ul>
+		<li><a href="../HTML/index.html">Home</a></li>
+		<li><a href="../HTML/about.html">About</a></li>
+		<li><a href="../HTML/contact.html" class="active-contact">Contact</a></li>
+		<li><a href="../HTML/launch.html">Launch</a></li>   
+	  </ul>
+	 </nav>
+      </div>
+	<div class="container">
+		<section class="contact-us">
+			
+			 <form id="contactForm">
+				 <div class="header">Contact us</div>
+		     <div class="contact-form">
+				 <label for="name" class="label">Full Name</label>
+		       <input type="text" class="fName" name="firstName" id="firstName" placeholder="First name" />
+				<div class="error" id="firstNameError">Please fill in your name here</div> 
+			 </div> 
+				 
+			  <div class="contact-form">
+				  <label for ="name" class="label">Telephone</label>
+				<input type="number" id="phone" name="phone" placeholder="telephone">
+				<div class="error" id="phoneError">We need a valid phone number </div> 
+		     </div>
+			 
+			 <div class="contact-form">
+				 <label for ="name" class="label">Email</label>
+			   <input class="email" name="email" id="email" placeholder="Email">
+				<div class="error" id="emailError" name="email">Enter your email here</div> 
+			 </div>
+
+			 	 
+			 <div class="contact-form">
+				 <label for ="name" class="label">Comment</label>
+			  <textarea name="comment" id="comment"></textarea>
+				 <div class="error" id="messageError" name="message">write at least three letters
+			 </div>
+				 </div>
+			<button type="submit" id="submit">Submit</button>
+				 </form>
+			
+			</section>
+	
+	</div>
+	<script src="../Javascript/contact.js"></script>
+	<footer>
+		<div class="containerFooter">
+		<ul id="nav">
+		 <img src="../Picture/1cd77912-d1fc-4e7e-a89d-5e98220e7f2d_rw_1200.jpg">
+		</ul>
+			
+		<ul id="navFooter">
+		<li><a href="../HTML/index.html">Home</a></li>
+		<li><a href="../HTML/about.html">About</a></li>
+		<li><a href="../HTML/contact.html" class="active-contact">Contact</a></li>
+		<li><a href="../HTML/launch.html">Launch</a></li>		
+	</ul>
+
+	<ul class="socialMediaIcon">
+	    <a href="https://www.facebook.com/spacenewsx/"><i class="fab fa-facebook-square"></i></a>
+		<a href="https://www.youtube.com/user/spacexchannel"><i class="fab fa-youtube"></i></a>
+		<a href="https://twitter.com/spacex"><i class="fab fa-twitter-square"></i>
+			</a>
+	</ul>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/0568cd4735.js" crossorigin="anonymous"></script>
+</body>
+</html>
